@@ -1,7 +1,7 @@
 ![uicollectionviewsplitlayout_logo](https://user-images.githubusercontent.com/18320004/47694680-0420a280-dc42-11e8-98b4-55de463a735a.png)
 
 [![Platform](https://img.shields.io/cocoapods/p/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
-![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![License](https://img.shields.io/cocoapods/l/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
 [![Version](https://img.shields.io/cocoapods/v/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
