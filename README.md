@@ -168,7 +168,7 @@ It divides each section into left or right.
 
 <img width="300" alt="2018-10-24 18 00 25" src="https://user-images.githubusercontent.com/18320004/47419330-ec1ad000-d7b6-11e8-8b9b-6316ad67c281.png">
 
-See [BasicCollectionViewController](https://github.com/yahoojapan/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
+See [BasicCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
 
 # Architecture
 
