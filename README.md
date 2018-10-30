@@ -19,7 +19,7 @@ You can dynamically update the width of them and which column each section is on
 
 For example, a collection view with UICollectionViewSplitLayout changes the number of column according to device orientation. All you need is setting value to ```leftSideRatio``` when changing screen size. This figure describes a collection view has three sections (red, blue and green) and UICollectionViewSplitLayout layouts them in left or right side.
 
-![render_well](https://user-images.githubusercontent.com/18320004/47661718-ed943000-dbdc-11e8-8caf-c471fa773cf8.png)
+![rendering_well](https://user-images.githubusercontent.com/18320004/47711268-2cc38f00-dc78-11e8-8181-6c6e753107f6.png)
 
 If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
 
