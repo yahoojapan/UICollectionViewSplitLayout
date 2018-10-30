@@ -26,5 +26,5 @@ On the other hands, UICollectionViewSplitLayout divides sections into two column
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = "UICollectionViewSplitLayout/*"
+  s.source_files = "UICollectionViewSplitLayout/*.swift"
 end
