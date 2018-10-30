@@ -1,7 +1,7 @@
 ![uicollectionviewsplitlayout_logo](https://user-images.githubusercontent.com/18320004/47694680-0420a280-dc42-11e8-98b4-55de463a735a.png)
 
 [![Platform](https://img.shields.io/cocoapods/p/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
-![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg)
+![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![License](https://img.shields.io/cocoapods/l/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
 [![Version](https://img.shields.io/cocoapods/v/UICollectionViewSplitLayout.svg?style=flat)](http://cocoapods.org/pods/UICollectionViewSplitLayout)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -21,10 +21,10 @@ For example, a collection view with UICollectionViewSplitLayout changes the numb
 
 ![render_well](https://user-images.githubusercontent.com/18320004/47661718-ed943000-dbdc-11e8-8caf-c471fa773cf8.png)
 
-If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmmojiCollectionViewController/EmojiCollectionViewController.swift).
+If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
 
 # Requirement
-+ iOS 10.0+
++ iOS 9.0+
 + Swift 4.2
 
 # Installation
@@ -168,7 +168,7 @@ It divides each section into left or right.
 
 <img width="300" alt="2018-10-24 18 00 25" src="https://user-images.githubusercontent.com/18320004/47419330-ec1ad000-d7b6-11e8-8b9b-6316ad67c281.png">
 
-See [BasicCollectionViewController](https://github.com/yahoojapan/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
+See [BasicCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
 
 # Architecture
 
