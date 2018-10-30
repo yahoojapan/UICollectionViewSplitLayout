@@ -24,7 +24,7 @@ For example, a collection view with UICollectionViewSplitLayout changes the numb
 If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
 
 # Requirement
-+ iOS 10.0+
++ iOS 9.0+
 + Swift 4.2
 
 # Installation
