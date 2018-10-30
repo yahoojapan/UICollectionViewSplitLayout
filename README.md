@@ -8,6 +8,8 @@
 
 UICollectionViewSplitLayout makes collection view more responsive.
 
+![oct-30-2018 19-53-04](https://user-images.githubusercontent.com/18320004/47713409-8da19600-dc7d-11e8-896d-d868de48589f.gif)
+
 # What's this?
 UICollectionViewSplitLayout is a subclass of UICollectionViewLayout. It divides sections into one or two column.
 
@@ -17,11 +19,12 @@ UICollectionViewFlowLayout layouts them from top to bottom.
 On the other hands, UICollectionViewSplitLayout divides sections into two columns.
 You can dynamically update the width of them and which column each section is on.
 
-For example, a collection view with UICollectionViewSplitLayout changes the number of column according to device orientation. All you need is setting value to ```leftSideRatio``` when changing screen size. This figure describes a collection view has three sections (red, blue and green) and UICollectionViewSplitLayout layouts them in left or right side.
+For example, a collection view with UICollectionViewSplitLayout changes the number of column according to device orientation. All you need is assign value to ```leftSideRatio``` when changing screen size. This figure describes a collection view has three sections (red, blue and green) and UICollectionViewSplitLayout layouts them in left or right side.
 
-![render_well](https://user-images.githubusercontent.com/18320004/47661718-ed943000-dbdc-11e8-8caf-c471fa773cf8.png)
+![rendering_well](https://user-images.githubusercontent.com/18320004/47711313-4bc22100-dc78-11e8-9a05-16c1ac149f99.png)
 
-If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
+
+It may be hard to imagine how it works, please run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
 
 # Requirement
 + iOS 9.0+
@@ -111,16 +114,16 @@ Build the code.
 
 It shows three sections whose items have different colors.
 
-## 2. Input UICollectionViewSplitLayout to Custom Layout Class
+## 2. Input "UICollectionViewSplitLayout" into Custom Layout Class
 
-Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" to Class and Module attribute.
+Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" into Class and Module attribute.
 
 <img width="316" alt="2018-10-30 11 07 59" src="https://user-images.githubusercontent.com/18320004/47691120-1e538400-dc34-11e8-821b-3b9bafb2dbfc.png">
 
 
-## 3. Set Parameters to UICollectionViewSplitLayout
+## 3. Assign parameters to UICollectionViewSplitLayout object
 
-Connect layout class in storyboard to source code. Sets the parameters on viewDidLoad()
+Connect layout class in storyboard to source code. Assign the parameters on viewDidLoad()
 
 ```swift
     @IBOutlet weak var layout: UICollectionViewSplitLayout!
@@ -154,7 +157,7 @@ extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLay
                                of: side, 
                                minimumInterItemSpacing: layout.minimumInterItemSpacing, 
                                sectionInset: layout.sectionInset)
-        return CGSize(width: width, height: 100)
+        return CGSize(width: width, height: width)
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sideForSection section: Int) -> UICollectionViewSplitLayoutSide {
@@ -166,7 +169,8 @@ extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLay
 
 It divides each section into left or right.
 
-<img width="300" alt="2018-10-24 18 00 25" src="https://user-images.githubusercontent.com/18320004/47419330-ec1ad000-d7b6-11e8-8b9b-6316ad67c281.png">
+<img width="300" alt="2018-10-30 23 41 03" src="https://user-images.githubusercontent.com/18320004/47726194-52af5a80-dc9d-11e8-82da-72e799837f6c.png">
+
 
 See [BasicCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
 
