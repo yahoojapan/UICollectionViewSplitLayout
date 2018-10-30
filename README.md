@@ -157,7 +157,7 @@ extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLay
                                of: side, 
                                minimumInterItemSpacing: layout.minimumInterItemSpacing, 
                                sectionInset: layout.sectionInset)
-        return CGSize(width: width, height: 100)
+        return CGSize(width: width, height: width)
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sideForSection section: Int) -> UICollectionViewSplitLayoutSide {
@@ -169,7 +169,8 @@ extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLay
 
 It divides each section into left or right.
 
-<img width="300" alt="2018-10-24 18 00 25" src="https://user-images.githubusercontent.com/18320004/47419330-ec1ad000-d7b6-11e8-8b9b-6316ad67c281.png">
+<img width="300" alt="2018-10-30 23 41 03" src="https://user-images.githubusercontent.com/18320004/47726194-52af5a80-dc9d-11e8-82da-72e799837f6c.png">
+
 
 See [BasicCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/BasicCollectionViewController/BasicCollectionViewController.swift) to run the above example.
 
