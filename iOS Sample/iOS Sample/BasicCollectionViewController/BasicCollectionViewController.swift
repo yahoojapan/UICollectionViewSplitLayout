@@ -41,7 +41,7 @@ class BasicCollectionViewController: UICollectionViewController {
         layout.minimumItemLineSpacing = 8
         layout.minimumInterItemSpacing = 8
         layout.sectionInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-        layout.leftSideRatio = view.frame.width < view.frame.height ? 1 : 0.4
+        layout.leftSideRatio = 0.4
         collectionView.collectionViewLayout = layout
 
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
@@ -61,21 +61,12 @@ class BasicCollectionViewController: UICollectionViewController {
         cell.backgroundColor = dataSource[indexPath.section][indexPath.row]
         return cell
     }
-    
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-        
-        layout.leftSideRatio = size.width < size.height ? 1 : 0.4
-        coordinator.animate(alongsideTransition: { [weak self] (_) in
-            self?.collectionView.collectionViewLayout.invalidateLayout()
-            }, completion: nil)
-    }
 }
 
 extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: IndexPath, width: CGFloat, side: UICollectionViewSplitLayoutSide) -> CGSize {
         let width = layout.calculateFixedWidthRaughly(
-            to: 5,
+            to: 3,
             of: side,
             minimumInterItemSpacing: layout.minimumInterItemSpacing,
             sectionInset: layout.sectionInset)
