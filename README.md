@@ -114,16 +114,16 @@ Build the code.
 
 It shows three sections whose items have different colors.
 
-## 2. Input UICollectionViewSplitLayout into Custom Layout Class
+## 2. Input "UICollectionViewSplitLayout" into Custom Layout Class
 
 Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" into Class and Module attribute.
 
 <img width="316" alt="2018-10-30 11 07 59" src="https://user-images.githubusercontent.com/18320004/47691120-1e538400-dc34-11e8-821b-3b9bafb2dbfc.png">
 
 
-## 3. Set Parameters to UICollectionViewSplitLayout
+## 3. Set parameters to UICollectionViewSplitLayout object
 
-Connect layout class in storyboard to source code. Sets the parameters on viewDidLoad()
+Connect layout class in storyboard to source code. Set the parameters on viewDidLoad()
 
 ```swift
     @IBOutlet weak var layout: UICollectionViewSplitLayout!
