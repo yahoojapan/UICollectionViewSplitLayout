@@ -21,7 +21,7 @@ For example, a collection view with UICollectionViewSplitLayout changes the numb
 
 ![render_well](https://user-images.githubusercontent.com/18320004/47661718-ed943000-dbdc-11e8-8caf-c471fa773cf8.png)
 
-If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmmojiCollectionViewController/EmojiCollectionViewController.swift).
+If you cannot imagine how it works, run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
 
 # Requirement
 + iOS 10.0+
