@@ -114,9 +114,9 @@ Build the code.
 
 It shows three sections whose items have different colors.
 
-## 2. Input UICollectionViewSplitLayout to Custom Layout Class
+## 2. Input UICollectionViewSplitLayout into Custom Layout Class
 
-Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" to Class and Module attribute.
+Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" into Class and Module attribute.
 
 <img width="316" alt="2018-10-30 11 07 59" src="https://user-images.githubusercontent.com/18320004/47691120-1e538400-dc34-11e8-821b-3b9bafb2dbfc.png">
 
