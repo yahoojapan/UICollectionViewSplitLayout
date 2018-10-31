@@ -19,7 +19,7 @@ UICollectionViewFlowLayout layouts them from top to bottom.
 On the other hands, UICollectionViewSplitLayout divides sections into two columns.
 You can dynamically update the width of them and which column each section is on.
 
-For example, a collection view with UICollectionViewSplitLayout changes the number of column according to device orientation. All you need is assign value to ```leftSideRatio``` when changing screen size. This figure describes a collection view has three sections (red, blue and green) and UICollectionViewSplitLayout layouts them in left or right side.
+For example, a collection view with UICollectionViewSplitLayout changes the number of column according to device orientation. All you need is assign value to ```leftSideRatio``` when changing screen size. This figure describes a collection view has three sections (red, blue and green) and UICollectionViewSplitLayout layouts them side by side.
 
 ![rendering_well](https://user-images.githubusercontent.com/18320004/47711313-4bc22100-dc78-11e8-9a05-16c1ac149f99.png)
 
