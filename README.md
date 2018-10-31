@@ -114,16 +114,16 @@ Build the code.
 
 It shows three sections whose items have different colors.
 
-## 2. Input "UICollectionViewSplitLayout" into Custom Layout Class
+## 2. Input "UICollectionViewSplitLayout" as Custom Layout Class
 
-Change the attribute of Layout into "Custom" and input "UICollectionViewSplitLayout" into Class and Module attribute.
+Switch "Flow" to "Custom" in Layout attribute and input "UICollectionViewSplitLayout" into Class and Module attributes.
 
 <img width="316" alt="2018-10-30 11 07 59" src="https://user-images.githubusercontent.com/18320004/47691120-1e538400-dc34-11e8-821b-3b9bafb2dbfc.png">
 
 
 ## 3. Assign parameters to UICollectionViewSplitLayout object
 
-Connect layout class in storyboard to source code. Assign the parameters on viewDidLoad()
+Connect the layout class to source code. Assign the parameters on viewDidLoad()
 
 ```swift
     @IBOutlet weak var layout: UICollectionViewSplitLayout!
@@ -287,7 +287,7 @@ UICollectionSplitLayout has a special decoration view. It has the same size as t
 ```
 
 ## Line Height Normalization
-If This porperty is true, item height is adjusted to outline height of the line (defalut: false).
+If isNormalizingLineHeight is true, item height is adjusted to outline height of the line (defalut: false).
 
 ```swift
 open var isNormalizingLineHeight: Bool
