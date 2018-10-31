@@ -133,12 +133,15 @@ Connect the layout class to source code. Assign the parameters on viewDidLoad()
         //...
         //...
         
+        // margins for each section
         layout.minimumItemLineSpacing = 8
         layout.minimumInterItemSpacing = 8
         layout.sectionInset = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
-        layout.splitSpacing = 0.4
-        collectionView.collectionViewLayout = layout
-
+        
+        // Column Setting
+        layout.leftSideRatio = 0.4
+        layout.splitSpacing = 8
+       
         //...
         //...
     }
