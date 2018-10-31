@@ -77,7 +77,6 @@ import UIKit
 private let reuseIdentifier = "Cell"
 
 class BasicCollectionViewController: UICollectionViewController {
-    @IBOutlet weak var layout: UICollectionViewSplitLayout!
     
     var dataSource: [[UIColor]] = [
         (0..<20).map { _ in .red },
