@@ -167,7 +167,7 @@ extension BasicCollectionViewController: UICollectionViewDelegateSectionSplitLay
 }
 ```
 
-It divides each section into left or right.
+It arrange sections side by side.
 
 <img width="300" alt="2018-10-30 23 41 03" src="https://user-images.githubusercontent.com/18320004/47726194-52af5a80-dc9d-11e8-82da-72e799837f6c.png">
 
