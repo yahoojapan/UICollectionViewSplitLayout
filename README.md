@@ -24,7 +24,7 @@ For example, UICollectionViewSplitLayout can changes the number of column accord
 ![rendering_well](https://user-images.githubusercontent.com/18320004/47711313-4bc22100-dc78-11e8-9a05-16c1ac149f99.png)
 
 UICollectionViewSplitLayout looks like UIStackView. 
-But it has more memory efficient architecture than UIStackView. 
+But it has a more memory efficient architecture. 
 So you can align a lot of cells with it.
 
 It may be hard to imagine how it works, please run [EmojiCollectionViewController](https://github.com/yahoojapan/UICollectionViewSplitLayout/blob/master/iOS%20Sample/iOS%20Sample/EmojiPhotosCollectionViewController/EmojiCollectionViewController.swift).
