@@ -11,7 +11,7 @@ UICollectionViewSplitLayout makes collection view more responsive.
 ![oct-30-2018 19-53-04](https://user-images.githubusercontent.com/18320004/47713409-8da19600-dc7d-11e8-896d-d868de48589f.gif)
 
 # What's this?
-UICollectionViewSplitLayout is a subclass of UICollectionViewLayout. It divides sections into one or two column.
+UICollectionViewSplitLayout is a subclass of UICollectionViewLayout. It can divide sections into two column.
 
 Collection view has "Section" which organizes item collection.
 UICollectionViewFlowLayout places them from top to bottom.
