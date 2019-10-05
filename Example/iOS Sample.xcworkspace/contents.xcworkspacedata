@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UICollectionViewSplitLayout.xcodeproj">
+      location = "group:iOS Sample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:iOS Sample/iOS Sample.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

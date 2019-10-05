@@ -1,0 +1,16 @@
+PODS:
+  - UICollectionViewSplitLayout (1.0.0)
+
+DEPENDENCIES:
+  - UICollectionViewSplitLayout (from `../`)
+
+EXTERNAL SOURCES:
+  UICollectionViewSplitLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UICollectionViewSplitLayout: 726127878c8867b83a4ad33697c67122c993cf86
+
+PODFILE CHECKSUM: 2227151cd12bed532033b71be9fdc0a6c7db629f
+
+COCOAPODS: 1.7.5
