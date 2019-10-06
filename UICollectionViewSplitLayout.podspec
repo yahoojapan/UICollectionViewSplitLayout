@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UICollectionViewSplitLayout"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "UICollectionViewSplitLayout makes collection view more responsive."
 
   s.description      = <<-DESC
