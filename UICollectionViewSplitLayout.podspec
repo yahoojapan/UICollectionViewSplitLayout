@@ -24,7 +24,7 @@ On the other hands, UICollectionViewSplitLayout divides sections into two column
   s.author           = { "Kazuhiro Hayashi" => "kahayash@yahoo-corp.jp" }
   s.source           = { :git => "https://github.com/yahoojapan/UICollectionViewSplitLayout.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = "UICollectionViewSplitLayout/*.swift"
+  s.source_files = "Sources/UICollectionViewSplitLayout/*.swift"
 end

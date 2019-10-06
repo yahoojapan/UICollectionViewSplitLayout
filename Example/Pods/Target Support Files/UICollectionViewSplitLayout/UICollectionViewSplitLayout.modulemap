@@ -1,0 +1,6 @@
+framework module UICollectionViewSplitLayout {
+  umbrella header "UICollectionViewSplitLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
